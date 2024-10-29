@@ -32,13 +32,13 @@ const Pages = () => {
                 </div>  
             </div>
             
-            <div className="h-max px-14 w-full flex  items-center justify-center my-20">
+            <div className="h-max px-5 md:px-14 w-full flex  items-center justify-center my-20">
                 <div className="max-w-[900px] w-full h-max flex flex-col gap-14 items-center text-primary">
                     <div className="flex flex-col items-center gap-1">
                         <p className="font-bold text-2xl ">Our Services</p>
                         <p className="text-xl md:text-2xl text-center font-normal">We are Master of Digital Agency</p>
                     </div>
-                    <div className="w-full h-max grid grid-cols-1  sm:grid-cols-2 lg:grid-cols-3 gap-5">
+                    <div className="w-full h-max grid grid-cols-2  sm:grid-cols-2 lg:grid-cols-3 gap-5">
                         <CardService 
                             title="Web Design"
                         />
@@ -71,7 +71,7 @@ const Pages = () => {
                 </div>
             </div>
             
-            <div className="h-max px-14 w-full flex items-center justify-center mb-20">
+            <div className="h-max px-5 md:px-14 w-full flex items-center justify-center mb-20">
                 <div className="max-w-[900px] w-full h-max flex flex-col  gap-5 items-center text-primary">
                     <div className="flex flex-col items-center gap-1">
                         <p className="font-bold text-2xl">Why Chose Us</p>
