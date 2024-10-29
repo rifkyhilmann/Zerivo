@@ -9,8 +9,8 @@ const Pages = () => {
     return (
         <div className="font-poppins">
             <Navbar />
-            <div className="h-screen px-14 w-full flex items-center justify-center">
-                <div className="max-w-[900px] md:mt-0 mt-10 w-full h-max flex flex-col md:flex-row justify-evenly gap-10">
+            <div className="min-h-screen h-max  px-14 w-full flex items-center justify-center">
+                <div className="max-w-[900px] md:mt-0 mt-20 w-full h-max flex flex-col md:flex-row justify-evenly gap-20">
                     {/* Gambar di atas pada tampilan mobile */}
                     <div className="w-full flex flex-col items-center justify-center md:items-start">
                         <img 
@@ -32,11 +32,11 @@ const Pages = () => {
                 </div>  
             </div>
             
-            <div className="h-max px-14 w-full flex  items-center justify-center mb-20">
+            <div className="h-max px-14 w-full flex  items-center justify-center my-20">
                 <div className="max-w-[900px] w-full h-max flex flex-col gap-14 items-center text-primary">
                     <div className="flex flex-col items-center gap-1">
-                        <p className="font-bold text-2xl">Our Services</p>
-                        <p className="text-xl md:text-2xl font-normal">We are Master of Digital Agency</p>
+                        <p className="font-bold text-2xl ">Our Services</p>
+                        <p className="text-xl md:text-2xl text-center font-normal">We are Master of Digital Agency</p>
                     </div>
                     <div className="w-full h-max grid grid-cols-1  sm:grid-cols-2 lg:grid-cols-3 gap-5">
                         <CardService 
@@ -74,8 +74,8 @@ const Pages = () => {
             <div className="h-max px-14 w-full flex items-center justify-center mb-20">
                 <div className="max-w-[900px] w-full h-max flex flex-col  gap-5 items-center text-primary">
                     <div className="flex flex-col items-center gap-1">
-                        <p className="font-bold text-md">Why Chose Us</p>
-                        <p className="text-md md:text-2xl font-normal">We are Master of Digital Agency</p>
+                        <p className="font-bold text-2xl">Why Chose Us</p>
+                        <p className="text-xl md:text-2xl text-center font-normal">We are Master of Digital Agency</p>
                     </div>
                     <div className="w-full  h-max grid grid-cols-1  sm:grid-cols-2 lg:grid-cols-3 gap-5 py-5 px-5">
                         <div className="h-64 rounded-md shadow-xl flex flex-col items-center py-10 gap-5">
