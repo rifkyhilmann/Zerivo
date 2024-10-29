@@ -24,7 +24,7 @@ const Navbar = () => {
                     erivo
                 </p>
             </div>
-            <div className="md:hidden flex">
+            <div className="md:hidden flex text-lg">
                 <FontAwesomeIcon 
                     icon={isActive ? faX : faBars}
                     className="flex cursor-pointer"
@@ -32,7 +32,7 @@ const Navbar = () => {
                 />
             </div>
             {/* Navbar links */}
-            <div className={`md:flex md:items-center md:flex-row flex-col gap-3 font-semibold justify-end text-primary text-xs ${isActive ? 'flex ' : 'hidden'} absolute top-20 w-[300px] left-10    md:w-full md:bg-transparent bg-white  md:shadow-none shadow  md:static`}>
+            <div className={`md:flex md:items-center md:flex-row flex-col gap-3 font-semibold justify-end text-primary text-md ${isActive ? 'flex ' : 'hidden'} absolute top-20 w-[300px] left-10    md:w-full md:bg-transparent bg-white  md:shadow-none shadow  md:static`}>
                 <BtnNav title="Home" />
                 <BtnNav title="About" />
                 <BtnNav title="Services" />

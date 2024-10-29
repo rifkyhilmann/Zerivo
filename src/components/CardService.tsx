@@ -9,7 +9,7 @@ interface CardProps {
 const CardService: React.FC<CardProps>  = ({title}) => {
     return (
         <div className="h-24 rounded-lg border flex items-center px-5 justify-between cursor-pointer hover:bg-primary hover:text-white shadow ">
-            <p className='text-sm font-semibold'>{title}</p>
+            <p className='text-md font-semibold'>{title}</p>
             <FontAwesomeIcon 
                 icon={faArrowRight}
             />

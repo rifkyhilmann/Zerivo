@@ -19,13 +19,13 @@ const Pages = () => {
                         />
                     </div>
                     <div className="w-full flex flex-col text-primary justify-center gap-5 md:items-start items-center md:text-left text-center">
-                        <p className="text-2xl md:text-4xl font-bold">
+                        <p className="text-4xl md:text-5xl font-bold">
                             Digital solution for tomorrow
                         </p>
-                        <p className="text-[10px] md:text-xs font-semibold max-w-[350px]">
+                        <p className="text-md md:text-md font-medium text-black max-w-[350px]">
                         Kami berkomitmen untuk memberikan solusi digital yang dapat membantu bisnis Anda tumbuh dan beradaptasi di era modern. Dengan keahlian di berbagai bidang, kami siap menjadi mitra terpercaya Anda.
                         </p>
-                        <button className="h-10 w-32 text-xs rounded-xl bg-primary text-white hover:bg-secondary">
+                        <button className="h-12 w-36 text-md rounded-xl bg-primary text-white hover:bg-secondary">
                             Lets tal'k
                         </button>
                     </div>
@@ -35,8 +35,8 @@ const Pages = () => {
             <div className="h-max px-14 w-full flex  items-center justify-center mb-20">
                 <div className="max-w-[900px] w-full h-max flex flex-col gap-14 items-center text-primary">
                     <div className="flex flex-col items-center gap-1">
-                        <p className="font-bold text-md">Our Services</p>
-                        <p className="text-md md:text-2xl font-normal">We are Master of Digital Agency</p>
+                        <p className="font-bold text-2xl">Our Services</p>
+                        <p className="text-xl md:text-2xl font-normal">We are Master of Digital Agency</p>
                     </div>
                     <div className="w-full h-max grid grid-cols-1  sm:grid-cols-2 lg:grid-cols-3 gap-5">
                         <CardService 
